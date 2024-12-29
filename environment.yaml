@@ -1,0 +1,28 @@
+# This file is generated from pyproject.toml using .chores/update-environment.py
+name: ynab-analysis
+
+channels:
+- conda-forge
+
+dependencies:
+  - python
+  # from pyproject.toml
+  - python-dotenv
+  - requests
+  - pydantic
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - statsmodels
+  - pip
+  - versioningit
+  - wheel
+  # optional-dependencies: analysis
+  - jupyter
+  - bokeh
+  - panel
+  # optional-dependencies: test
+  - nox
+  - pytest
+  - pytest-datadir
